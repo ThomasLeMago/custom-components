@@ -2,12 +2,19 @@ import { useState } from "react"
 import { Select, SelectOption } from "./Select"
 import { Badge } from "./Badge"
 import "./style.css";
+import { Breadcrumb } from "./Breadcrumb";
 
 const options = [
   { label: "First", value: 1},
   { label: "Second", value: 2},
   { label: "Third", value: 3},
   { label: "Fourth", value: 4}  
+]
+
+const paths = [
+  {value: "Home", index: 0},
+  {value: "Library", index: 1},
+  {value: "Data", index: 2},
 ]
 
 function App() {
@@ -24,6 +31,8 @@ function App() {
         <p>Hello</p>
         <Badge value="new"/>
       </div>
+      <br />
+      <Breadcrumb paths={paths} />
     </>
   )
 }

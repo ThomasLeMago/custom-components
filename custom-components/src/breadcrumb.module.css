@@ -1,0 +1,13 @@
+.crumb{
+    list-style: none;
+    cursor: pointer;
+}
+
+.highlighted {
+    color: hsl(200, 100%, 50%);
+    text-decoration: underline;
+}
+
+.highlighted:hover{
+    cursor: pointer;
+}
