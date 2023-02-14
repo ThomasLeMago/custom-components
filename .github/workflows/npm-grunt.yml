@@ -24,5 +24,5 @@ jobs:
 
     - name: Build
       run: |
-        cd ../../
+        cd ../../custom-components
         npm run dev
