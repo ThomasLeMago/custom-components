@@ -9,7 +9,7 @@ Simple but functional custom HTML elements made for the React framework
 <Breadcrumb paths={paths} />
 ```
 
-# custom-components
+# custom-components (FR)
 
 Des éléments HTML conçu pour React
 
